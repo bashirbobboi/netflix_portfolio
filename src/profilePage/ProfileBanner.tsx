@@ -21,11 +21,11 @@ const ProfileBanner: React.FC = () => {
   if (!bannerData) return <div>Loading...</div>;
 
   const handlePlayClick = () => {
-    window.open(bannerData.resumeLink.url, '_blank');
+    window.open(bannerData.resumelink.url, '_blank');
   };
 
   const handleLinkedinClick = () => { 
-    window.open(bannerData.linkedinLink, '_blank');
+    window.open(bannerData.linkedinlink, '_blank');
   }
 
   return (
@@ -33,7 +33,7 @@ const ProfileBanner: React.FC = () => {
       <div className="banner-content">
         <h1 className="banner-headline" id='headline'>{bannerData.headline}</h1>
         <p className="banner-description">
-          {bannerData.profileSummary}
+          {bannerData.profilesummary}
         </p>
 
         <div className="banner-buttons">

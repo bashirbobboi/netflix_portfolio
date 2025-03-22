@@ -20,9 +20,9 @@ const WorkPermit: React.FC = () => {
       <div className="work-permit-card">
         <h2 className="work-permit-headline">🎓 Work Permit</h2>
         <p className="work-permit-summary">
-          I'm currently on a <strong>{workPermitData.visaStatus}</strong> 🛂, which allows me to work in the UK! 🇬🇧 My visa is valid until <strong>{new Date(workPermitData.expiryDate).toLocaleDateString()}</strong> 📅, giving me the opportunity to build valuable experience and grow my career here. 🌟
+          Currently on a <strong>{workPermitData.visastatus}</strong> 🛂, Anticipate being available for full-time employment from <strong>{new Date(workPermitData.expirydate).toLocaleDateString()}</strong> 📅,  This visa pathway ensures I'm fully authorized for UK employment opportunities to build valuable professional experience.
         </p>
-        <p className="additional-info">{workPermitData.additionalInfo}</p>
+        <p className="additional-info">{workPermitData.additionalinfo}</p>
       </div>
     </div>
   );

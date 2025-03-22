@@ -1,20 +1,20 @@
 // types.ts
 
 export interface ProfileBanner {
-  backgroundImage: { url: string };
+  backgroundimage: { url: string };
   headline: string;
-  resumeLink: {
+  resumelink: {
     url: string;
   };
-  linkedinLink: string;
-  profileSummary: string;
+  linkedinlink: string;
+  profilesummary: string;
 }
 
 export interface WorkPermit {
-  visaStatus: string;
-  expiryDate: Date;
+  visastatus: string;
+  expirydate: Date;
   summary: string;
-  additionalInfo: string;
+  additionalinfo: string;
 }
 
 export interface TimelineItem {
@@ -42,14 +42,14 @@ export interface Certification {
 }
 
 export interface ContactMe {
-  profilePicture: { url: string };
+  profilepicture: { url: string };
   name: string;
   title: string;
   summary: string;
-  companyUniversity: string;
-  linkedinLink: string;
+  companyuniversity: string;
+  linkedinlink: string;
   email: string;
-  phoneNumber: string;
+  phonenumber: string;
 }
 
 export interface Skill { 

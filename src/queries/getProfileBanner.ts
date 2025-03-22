@@ -5,15 +5,15 @@ import { ProfileBanner } from '../types';
 const GET_PROFILE_BANNER = `
  {
   profilebanner {
-    backgroundImage {
+    backgroundimage {
       url
     }
     headline
-    resumeLink {
+    resumelink {
       url
     }
-    linkedinLink
-    profileSummary
+    linkedinlink
+    profilesummary
   }
 }
 `;
