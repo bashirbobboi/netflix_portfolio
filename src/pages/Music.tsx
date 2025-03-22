@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import './Music.css';
 import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
 import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC

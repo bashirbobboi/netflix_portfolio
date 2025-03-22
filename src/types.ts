@@ -18,27 +18,27 @@ export interface WorkPermit {
 }
 
 export interface TimelineItem {
-  timelineType: 'work' | 'education';
+  timelinetype: 'work' | 'education';
   name: string;
   title: string;
-  techStack: string;
-  summaryPoints: string[];
-  dateRange: string;
+  techstack: string;
+  summarypoints: string[];
+  daterange: string;
 }
 
 export interface Project {
   title: string;
   description: string;
-  techUsed: string;
+  techused: string;
   image: { url: string };
 }
 
 export interface Certification {
   title: string;
   issuer: string;
-  issuedDate: string;
+  issueddate: string;
   link: string;
-  iconName: string;
+  iconname: string;
 }
 
 export interface ContactMe {

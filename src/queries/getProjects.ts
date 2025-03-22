@@ -7,7 +7,7 @@ const GET_PROJECTS = `
     allProjects(orderBy: title_ASC) {
       title
       description
-      techUsed
+      techused
       image {
         url
       }

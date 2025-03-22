@@ -3,27 +3,31 @@ import './Skills.css';
 import { getSkills } from '../queries/getSkills';
 
 import { FaReact, FaNodeJs, FaAws, FaDocker, FaGitAlt, FaJava } from 'react-icons/fa';
-import { SiRubyonrails, SiTypescript, SiPostgresql, SiMysql, SiKubernetes, SiGooglecloud, SiSpringboot, SiPhp, SiNetlify, SiHeroku, SiHtml5, SiCss3, SiRabbitmq, SiImessage } from 'react-icons/si';
+import { SiRubyonrails, SiTypescript, SiPostgresql, SiMysql, SiKubernetes, SiGooglecloud, SiSpringboot, SiPhp, SiNetlify, SiHeroku, SiHtml5, SiCss3, SiRabbitmq, SiImessage, SiJavascript, SiPython, SiFlask, SiC, SiCsharp, SiKotlin, SiWordpress, SiVmware, SiFirebase, SiGit, SiJunit5 } from 'react-icons/si';
 import { Skill } from '../types';
 
 const iconMap: { [key: string]: JSX.Element } = {
   SiRubyonrails: <SiRubyonrails />,
   FaNodeJs: <FaNodeJs />,
-  SiSpringboot: <SiSpringboot />,
   FaJava: <FaJava />,
-  SiPhp: <SiPhp />,
   FaReact: <FaReact />,
+  SiJavascript: <SiJavascript />,
+  SiHtml5: <SiHtml5 />,
+  SiCss3: <SiCss3 />,
   SiTypescript: <SiTypescript />,
   FaAws: <FaAws />,
   FaDocker: <FaDocker />,
   SiPostgresql: <SiPostgresql />,
   SiMysql: <SiMysql />,
-  SiKubernetes: <SiKubernetes />,
   SiGooglecloud: <SiGooglecloud />,
-  SiHeroku: <SiHeroku />,
-  SiNetlify: <SiNetlify />,
-  SiRabbitmq: <SiRabbitmq />,
-  SiImessage: <SiImessage />,
+  SiPython: <SiPython />,
+  SiFlask: <SiFlask />,
+  SiCsharp: <SiCsharp />,
+  SiKotlin: <SiKotlin />,
+  SiVmware: <SiVmware />,
+  SiFirebase: <SiFirebase />,
+  SiGit: <SiGit />,
+  SiJunit5: <SiJunit5 />,
 };
 
 

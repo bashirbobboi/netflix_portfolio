@@ -6,11 +6,11 @@ const GET_TIMELINE = `
 {
   allTimelines {
    	name
-    timelineType
+    timelinetype
     title
-    techStack
-    summaryPoints
-    dateRange
+    techstack
+    summarypoints
+    daterange
   }
 }
 `;
