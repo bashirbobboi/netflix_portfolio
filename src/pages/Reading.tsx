@@ -3,13 +3,19 @@
 import React from 'react';
 import './Reading.css';
 import atomicHabits from '../images/atomic_habits.jpg';
-import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
-import alchemist from '../images/alchemist.jpg';
-import eatThatFrog from '../images/eat_that_frog.jpg';
-import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
-import venneloAdapilla from '../images/vennelo_adapilla.jpeg';
+import quran from '../images/quran.jpg';
+import alchemist from '../images/tmm5nljv.png';
+import accidentalPublicServant from '../images/elrufai.jpg';
+import selectedPoems from '../images/rumi.jpg';
+import ignorantSchoolmaster from '../images/ignorant.webp';
 
 const books = [
+  {
+    title: "Al-Quran",
+    author: "",
+    imgSrc: quran,
+    description: "Guidance, peace, purpose, and a constant reminder of Allah's mercy.",
+  },
   {
     title: "Atomic Habits",
     author: "James Clear",
@@ -17,42 +23,36 @@ const books = [
     description: "A practical guide to building good habits and breaking bad ones.",
   },
   {
-    title: "Rich Dad Poor Dad",
-    author: "Robert Kiyosaki",
-    imgSrc: richDadPoorDad,
-    description: "An eye-opener on wealth, assets, and financial literacy.",
+    title: "The Accidental Public Servant",
+    author: "Nasir Ahmad El-Rufai",
+    imgSrc: accidentalPublicServant,
+    description: "A compelling eye-opener on leadership and public policy.",
   },
   {
-    title: "The Alchemist",
-    author: "Paulo Coelho",
+    title: "Selected Poems",
+    author: "Rumi",
+    imgSrc: selectedPoems,
+    description: "Rumi’s words feel like whispers to the soul—timeless, healing, and stimulating.",
+  },
+  {
+    title: "The Emirates of Northern Nigeria: A Preliminary Survey of Their Historical Traditions",
+    author: "S. J. Hogben and A. H. M. Kirk-Greene",
     imgSrc: alchemist,
-    description: "A magical journey of following one's dreams.",
+    description: "A comprehensive study of the Emirates of Northern Nigeria.",
   },
   {
-    title: "Eat That Frog",
-    author: "Brian Tracy",
-    imgSrc: eatThatFrog,
-    description: "A motivational book on overcoming procrastination.",
-  },
-  {
-    title: "Vijayaniki Aidhu Metlu",
-    author: "Yandamoori Veerendranath",
-    imgSrc: vijayanikiAidhuMetlu,
-    description: "An inspirational Telugu book for personal growth.",
-  },
-  {
-    title: "Vennelo Adapilla",
-    author: "Yandamoori Veerendranath",
-    imgSrc: venneloAdapilla,
-    description: "A classic Telugu romantic novel that touches the heart.",
+    title: "The Ignorant Schoolmaster",
+    author: "Jacques Rancière",
+    imgSrc: ignorantSchoolmaster,
+    description: "Redefined how I view learning and equality.",
   },
 ];
 
 const Reading: React.FC = () => {
   return (
     <div className="reading-container">
-      <h2 className="reading-title">📚 Books That Shaped My Journey</h2>
-      <p className="reading-intro">These books have influenced my perspectives, motivation, and self-growth.</p>
+      <h2 className="reading-title">📚 Reading</h2>
+      <p className="reading-intro">These books have influenced my perspective on life.</p>
       <div className="books-grid">
         {books.map((book, index) => (
           <div key={index} className="book-card" style={{ '--delay': `${index * 0.1}s` } as React.CSSProperties}>

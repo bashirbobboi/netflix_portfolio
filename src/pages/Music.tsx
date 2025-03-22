@@ -1,21 +1,21 @@
 import React from 'react'; 
 import './Music.css';
-import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
-import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC
-import albumCover3 from '../images/guns-n-roses.webp'; // Appetite for Destruction by Guns N' Roses
+import albumCover1 from '../images/mbdtf-1.jpg'; // Kanye West's Greatest Album
+import albumCover2 from '../images/mots.jpg'; // Je Te Laisserai Des Mots by Patrick Watson
+import albumCover3 from '../images/pacas.jpg'; // Que Sigan Llegando Las Pacas by Chino Pacas
 
-const favoriteGenres = ["Rock", "Classic Rock", "Hard Rock", "Blues", "Alternative"];
+const favoriteGenres = ["90's Rap", "Pop", "RnB", "House", "Introspective Rap"];
 const favoriteAlbums = [
-  { title: "Hotel California", artist: "The Eagles", imgSrc: albumCover1 },
-  { title: "Back in Black", artist: "AC/DC", imgSrc: albumCover2 },
-  { title: "Appetite for Destruction", artist: "Guns N' Roses", imgSrc: albumCover3 },
+  { title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West", imgSrc: albumCover1 },
+  { title: "Je Te Laisserai Des Mots", artist: "Patrick Watson", imgSrc: albumCover2 },
+  { title: "Que Sigan Llegando Las Pacas", artist: "Chino Pacas", imgSrc: albumCover3 },
 ];
 
 const Music: React.FC = () => {
   return (
     <div className="music-page">
       <div className="quote">
-        <p>“Rock and Roll isn’t a genre, it’s a way of life.” 🎸</p>
+        <p>🎼 "Mood, Melody, and Meaning – My Personal Picks" </p>
       </div>
 
       <div className="genre-section">
