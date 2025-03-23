@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/netflix_portfolio/static/css/main.d5483b0f.css",
+    "main.js": "/netflix_portfolio/static/js/main.d9ef9a4c.js",
+    "static/js/453.b0cd7502.chunk.js": "/netflix_portfolio/static/js/453.b0cd7502.chunk.js",
+    "static/media/quran.jpg": "/netflix_portfolio/static/media/quran.abebba7d3aedb144f98b.jpg",
+    "static/media/mbdtf-1.jpg": "/netflix_portfolio/static/media/mbdtf-1.4882005668fe8df66649.jpg",
+    "static/media/pacas.jpg": "/netflix_portfolio/static/media/pacas.d336b46ab73402f061f5.jpg",
+    "static/media/tmm5nljv.png": "/netflix_portfolio/static/media/tmm5nljv.c6fed973cc0b6b36357d.png",
+    "static/media/bashir.jpeg": "/netflix_portfolio/static/media/bashir.d1b2a05bc80760b1f6a0.jpeg",
+    "static/media/ignorant.webp": "/netflix_portfolio/static/media/ignorant.655bd835e3d1c72d0bcc.webp",
+    "static/media/rumi.jpg": "/netflix_portfolio/static/media/rumi.cbab47fe27aede9f3889.jpg",
+    "static/media/mots.jpg": "/netflix_portfolio/static/media/mots.00e4657931496f5520aa.jpg",
+    "static/media/grey.png": "/netflix_portfolio/static/media/grey.bbfd7fb8e095529e355c.png",
+    "static/media/blue.png": "/netflix_portfolio/static/media/blue.9b293a4a6ef065903a8f.png",
+    "static/media/netflix-sound.mp3": "/netflix_portfolio/static/media/netflix-sound.a13a4aedfb5da5a27f04.mp3",
+    "static/media/elrufai.jpg": "/netflix_portfolio/static/media/elrufai.c53be3b36bab337f1ec2.jpg",
+    "static/media/yellow.png": "/netflix_portfolio/static/media/yellow.2631c5cf63f02f6bbfbf.png",
+    "static/media/red.png": "/netflix_portfolio/static/media/red.6138d0c52611186c9d03.png",
+    "static/media/netflix.png": "/netflix_portfolio/static/media/netflix.d6f8437ae0134a7563dc.png",
+    "static/media/atomic_habits.jpg": "/netflix_portfolio/static/media/atomic_habits.1e9739efe6a8eca8240a.jpg",
+    "index.html": "/netflix_portfolio/index.html",
+    "main.d5483b0f.css.map": "/netflix_portfolio/static/css/main.d5483b0f.css.map",
+    "main.d9ef9a4c.js.map": "/netflix_portfolio/static/js/main.d9ef9a4c.js.map",
+    "453.b0cd7502.chunk.js.map": "/netflix_portfolio/static/js/453.b0cd7502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5483b0f.css",
+    "static/js/main.d9ef9a4c.js"
+  ]
+}
