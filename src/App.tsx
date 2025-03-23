@@ -5,14 +5,14 @@ import ProfilePage from './profilePage/profilePage';
 import Browse from './browse/browse';
 import WorkPermit from './pages/WorkPermit';
 import WorkExperience from './pages/WorkExperience';
-// import Recommendations from './pages/Recommendations';  // Comment out the import
+import Recommendations from './pages/Recommendations';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
 import Layout from './Layout';
 import Music from './pages/Music';
 import Reading from './pages/Reading';
-// import Blogs from './pages/Blogs';
+import Blogs from './pages/Blogs';
 import Certifications from './pages/Certifications';
 
 const App: React.FC = () => {
@@ -29,7 +29,7 @@ const App: React.FC = () => {
       <Route path="/contact-me" element={<Layout><ContactMe /></Layout>} />
       <Route path="/music" element={<Layout><Music /></Layout>} />
       <Route path="/reading" element={<Layout><Reading /></Layout>} />
-      {/* <Route path="/blogs" element={<Layout><Blogs /></Layout>} /> */}
+      <Route path="/blogs" element={<Layout><Blogs /></Layout>} />
       <Route path="/certifications" element={<Layout><Certifications /></Layout>} />
     </Routes>
   );
