@@ -13,25 +13,25 @@ const continueWatchingConfig = {
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
     { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
    // { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Contact", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   developer: [
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
     { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
    // { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
     { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Contact", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   stalker: [
     { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
    // { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Contact", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   adventure: [
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
     { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
     { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Contact", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ]
 };
 
