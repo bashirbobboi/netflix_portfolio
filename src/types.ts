@@ -8,6 +8,7 @@ export interface ProfileBanner {
   };
   linkedinlink: string;
   profilesummary: string;
+  mobilesummary?: string;
 }
 
 export interface WorkPermit {

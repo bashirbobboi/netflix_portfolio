@@ -14,6 +14,7 @@ const GET_PROFILE_BANNER = `
     }
     linkedinlink
     profilesummary
+    mobilesummary
   }
 }
 `;
